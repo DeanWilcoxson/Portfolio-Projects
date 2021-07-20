@@ -3,8 +3,8 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <h1>Dean Wilcoxson</h1>
-      <ul>
+      <h1 className="header">Dean Wilcoxson</h1>
+      <ul className="about">
         <b>A lttle about me:</b>
         <li>I'm a proud father of two beautiful girls.</li>
         <li>I'm an Ex-Addict two years sober.</li>
@@ -13,26 +13,26 @@ function App() {
           M.E.R.N stack. I am also currently learning the full L.A.M.P stack
         </li>
       </ul>
-      <div>
-        <ul>
+      <div className="skillsBox">
+        <ul className="skills">
           Skills:
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Node.Js</li>
-          <li>Express.Js</li>
-          <li>React</li>
-          <li>Axios</li>
-          <li>Restful Api</li>
-          <li>Javascript(Dom Manipulation)</li>
-          <li>React(Context)</li>
-          <li>React(Redux)</li>
-          <li>Encryption/Authentication</li>
-          <li>Mysql</li>
-          <li>Mongoose</li>
-          <li>Docker</li>
-          <li>Exposure to Nginx/Apache</li>
-          <li>Object-Oriented Programming</li>
-          <li>Debugging</li>
+          <li className="skill">HTML5</li>
+          <li className="skill">CSS3</li>
+          <li className="skill">Javascript</li>
+          <li className="skill">Object-Oriented Programming</li>
+          <li className="skill">Dom Manipulation</li>
+          <li className="skill">React.Js</li>
+          <li className="skill">State Management(Context, Redux)</li>
+          <li className="skill">Express.Js</li>
+          <li className="skill">Axios</li>
+          <li className="skill">Restful Api</li>
+          <li className="skill">Mongoose</li>
+          <li className="skill">Mysql</li>
+          <li className="skill">Node.Js</li>
+          <li className="skill">Docker</li>
+          <li className="skill">Debugging</li>
+          <li className="skill">Encryption/Authentication</li>
+          <li className="skill">Exposure to Nginx/Apache</li>
         </ul>
       </div>
     </div>

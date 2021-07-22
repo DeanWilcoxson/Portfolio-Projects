@@ -27,7 +27,10 @@ const skills = {
     "Exposure to Nginx/ Apache",
   ],
 };
-
-app.use("/", require("./Routes/router"));
+router.get("/", (req, res) => {
+  // console.log("get")
+  res.send(skills);
+});
+app.use("/", require("./Routes/router"), );
 
 module.exports = router;

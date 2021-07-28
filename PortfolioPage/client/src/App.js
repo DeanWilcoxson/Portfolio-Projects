@@ -1,22 +1,27 @@
 import React from "react";
+import {faHtml5} from "@fortawesome/free-brands-svg-icons"
 import "./styles.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faHtml5 } from 'font-awesome';
 function App() {
+  const html5 = <FontAwesomeIcon icon={faHtml5} color="blue" />;
   return (
     <div className="App">
       <h1 className="header">Dean Wilcoxson</h1>
-      <ul className="about">
-        <b>A lttle about me:</b>
-        <li>I'm a proud father of two beautiful girls.</li>
-        <li>I'm an Ex-Addict two years sober.</li>
-        <li>
+      <ul className="aboutDiv">
+        <b className="aboutHeader">A lttle about me:</b>{" "}
+        <li className="item">
           I am student at Bryan University, where I have learned the full
-          M.E.R.N stack. I am also currently learning the full L.A.M.P stack
+          M.E.R.N stack over a ten month period and have graduated and recieved
+          my certificate. I am now currently learning the full L.A.M.P stack.
         </li>
+        <li className="item">I'm a proud father of two beautiful girls.</li>
+        <li className="item">I was born and raised in California.</li>
       </ul>
       <div className="skillsBox">
-        <ul className="skills">
-          Skills:
-          <li className="skill">HTML5</li>
+        <ul>
+          <b className="skills">Skills:</b>
+          <li className="skill">{html5}</li>
           <li className="skill">CSS3</li>
           <li className="skill">Javascript</li>
           <li className="skill">Object-Oriented Programming</li>
@@ -25,7 +30,7 @@ function App() {
           <li className="skill">State Management(Context, Redux)</li>
           <li className="skill">Express.Js</li>
           <li className="skill">Axios</li>
-          <li className="skill">Restful Api</li>
+          <li className="skill">RESTful Api Design</li>
           <li className="skill">Mongoose</li>
           <li className="skill">Mysql</li>
           <li className="skill">Node.Js</li>

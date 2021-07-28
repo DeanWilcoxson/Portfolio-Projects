@@ -1,10 +1,12 @@
 import React from "react";
-import {faHtml5} from "@fortawesome/free-brands-svg-icons"
+// import {faHtml5} from "@fortawesome/free-brands-svg-icons"
 import "./styles.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faHtml5 } from 'font-awesome';
 function App() {
-  const html5 = <FontAwesomeIcon icon={faHtml5} color="blue" />;
+  // const html5 = <FontAwesomeIcon icon={faHtml5} color="blue" />;
+            // <li className="skill">{html5}</li>
+
   return (
     <div className="App">
       <h1 className="header">Dean Wilcoxson</h1>
@@ -21,7 +23,6 @@ function App() {
       <div className="skillsBox">
         <ul>
           <b className="skills">Skills:</b>
-          <li className="skill">{html5}</li>
           <li className="skill">CSS3</li>
           <li className="skill">Javascript</li>
           <li className="skill">Object-Oriented Programming</li>

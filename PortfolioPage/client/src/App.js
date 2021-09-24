@@ -9,7 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="header">Dean Wilcoxson</h1>
+    <h1 className="header">Dean Wilcoxson</h1>
+    <img src="./Images/dean.jpg" alt="" height="500" weight="500"></img>
       <ul className="aboutDiv">
         <b className="aboutHeader">A lttle about me:</b>{" "}
         <li className="item">

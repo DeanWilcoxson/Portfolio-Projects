@@ -3,11 +3,19 @@ import { Link } from "react-router-dom";
 class Nav extends React.Component {
   render() {
     return (
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Services">Services</Link>
-        <Link to="/Projects">Projects</Link>
+      <div className="nav">
+        <button className="navBtn">
+          <Link to="/">Home</Link>
+        </button>
+        <button className="navBtn">
+          <Link to="/About">About</Link>
+        </button>
+        <button className="navBtn">
+          <Link to="/Services">Services</Link>
+        </button>
+        <button className="navBtn">
+          <Link to="/Projects">Projects</Link>
+        </button>
       </div>
     );
   }

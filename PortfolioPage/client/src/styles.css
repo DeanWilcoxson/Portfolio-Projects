@@ -2,33 +2,44 @@
     background-image: url("");
 } */
 
+body {
+    background-image: url("https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTgwOTN8MHwxfHNlYXJjaHwyfHxwb3J0Zm9saW8lMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTYzMjUyNjI2Ng&ixlib=rb-1.2.1&q=80&w=1080");
+}
+
 .header {
+    color: aqua;
     font-size: 48px;
     text-align: center;
-    text-shadow: 0px 5px 5px;
-    background-color: rgba(211, 211, 211, 0.441);
+    text-shadow: 0px 5px 5px black;
+    background-color: rgba(211, 211, 211, 0.738);
+    border-radius: 15px;
     padding: 20px;
 }
 
 .aboutDiv {
-    background-color: rgba(211, 211, 211, 0.441);
+    border-radius: 15px;
+    background-color: rgba(211, 211, 211, 0.738);
 }
 
 .aboutHeader {
     text-decoration: underline;
+    text-align: center;
 }
 
 .item {
     list-style-type: none;
+    text-align: center;
 }
 
 .skillsBox {
-    background-color: rgba(211, 211, 211, 0.441);
+    border-radius: 15px;
+    background-color: rgba(211, 211, 211, 0.738);
 }
 
 .skills {
     text-decoration: underline;
 }
 
-
-/* .skill {} */
+.skill {
+    list-style-type: none;
+}

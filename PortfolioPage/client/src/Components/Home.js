@@ -1,9 +1,19 @@
 import React from "react";
+import profilePicture from ".././Images/dean.jpg";
 class Home extends React.Component {
-  // <img src="./Images/dean.jpg" alt="" height="500" weight="500"></img>
   render() {
     return (
       <div>
+        <div className="imgDiv">
+          <img
+            src={profilePicture}
+            alt="Dean Wilcoxson"
+            height="200"
+            width="350"
+            id="homeImg"
+          ></img>
+        </div>
+
         <h1 className="header">Dean Wilcoxson</h1>
         <div className="skillsBox">
           <ul>
@@ -13,7 +23,9 @@ class Home extends React.Component {
             <li className="skill">Object-Oriented Programming</li>
             <li className="skill">Dom Manipulation</li>
             <li className="skill">React.Js</li>
-            <li className="skill">State Management(Context, Redux)</li>
+            <li className="skill">
+              State Management(Local State, Context, Redux)
+            </li>
             <li className="skill">Express.Js</li>
             <li className="skill">Axios</li>
             <li className="skill">RESTful Api Design</li>

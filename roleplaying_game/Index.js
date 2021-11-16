@@ -309,7 +309,7 @@ console.log(
   \n\t\t You grab the ${player.weapon.name} and take off running, leaving all your things behind.
   \t\t You have a family to return to. You can't die here. You hear someone chasing you, 
   \t\t you turn around and thrust the ${player.weapon.name} into his gut. It was self defense. 
-  \t\t You didnt want to do it, but the hoard doesnt set people free or leave them alive. 
+  \t\t You didn't want to do it, but the hoard doesn't set people free or leave them alive. 
   \t\t They use them up completely in all the sick and demented ways you could think of.
   \t\t Time to get going, try to get away from the hoard while they are busy with the caravan.`
 );
@@ -374,4 +374,5 @@ function mainGameFunction() {
   }
 }
 
+function wander(){}
 // console.log(player.weapon.name);

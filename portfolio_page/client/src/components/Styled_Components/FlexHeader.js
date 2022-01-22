@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const FlexContainer = styled.div`
+export const FlexHeader = styled.div`
   background-color: rgb(255, 255, 255);
   display: Flex;
   flex-direction: column;
@@ -7,7 +7,7 @@ export const FlexContainer = styled.div`
   box-shadow: 5px 5px 5px 2px grey;
   align-items: center;
   padding: 5px 5px 5px 5px;
-  border: 1px solid #1e91d6;
+  border-bottom: 1px solid grey;
   margin: auto;
   margin-top: 50px;
   width: 75%;

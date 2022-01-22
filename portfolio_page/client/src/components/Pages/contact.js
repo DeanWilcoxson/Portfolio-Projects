@@ -1,17 +1,26 @@
 import React, { Component } from "react";
+import { FlexContainer } from "./../Styled_Components/FlexContainer";
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <FlexContainer>
         Contact Page
         <ul>
-          <li>Phone:</li>
-          <li>Email:</li>
-          <li>Github:</li>
-          <li>LinkedIn:</li>
+          <li>
+            Phone: <b>1(209)-840-0950</b>
+          </li>
+          <li>
+            Email: <b></b>
+          </li>
+          <li>
+            Github: <b></b>
+          </li>
+          <li>
+            LinkedIn: <b></b>
+          </li>
           <li></li>
         </ul>
-      </div>
+      </FlexContainer>
     );
   }
 }

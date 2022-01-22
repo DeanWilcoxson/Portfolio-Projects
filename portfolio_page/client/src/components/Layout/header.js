@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import { FlexContainer } from "../Styled_Components/FlexContainer";
+import { FlexHeader } from "../Styled_Components/FlexHeader";
 import { StyledHeader } from "./../Styled_Components/StyledHeader";
 class Header extends Component {
   render() {
     return (
-      <FlexContainer>
+      <FlexHeader>
         <StyledHeader>Dean Wilcoxson</StyledHeader>
         <h3>| Junior Web Developer |</h3>
-      </FlexContainer>
+      </FlexHeader>
     );
   }
 }

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import { FlexContainer } from "./../Styled_Components/FlexContainer";
 class About extends Component {
   render() {
-    return <div>About Page</div>;
+    return <FlexContainer>About Page</FlexContainer>;
   }
 }
-export default About
+export default About;

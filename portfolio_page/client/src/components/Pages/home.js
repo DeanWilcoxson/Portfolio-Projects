@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import { FlexContainer } from "./../Styled_Components/FlexContainer";
 class Home extends Component {
   render() {
     return (
-      <div>
-        <b> Home Page </b> 
-        <ul> Skills:
+      <FlexContainer>
+        <b> Home Page </b>
+        <ul>
+          Skills:
           <li>HTML5</li>
           <li>CSS3</li>
           <li>JS</li>
@@ -16,7 +18,7 @@ class Home extends Component {
           <li>State Managment</li>
           <li>RESTful API Design</li>
         </ul>
-      </div>
+      </FlexContainer>
     );
   }
 }

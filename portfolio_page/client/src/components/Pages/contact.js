@@ -4,7 +4,13 @@ class Contact extends Component {
     return (
       <div>
         Contact Page
-        <div><p>Phone Number:<b>2098400950</b></p></div>
+        <ul>
+          <li>Phone:</li>
+          <li>Email:</li>
+          <li>Github:</li>
+          <li>LinkedIn:</li>
+          <li></li>
+        </ul>
       </div>
     );
   }

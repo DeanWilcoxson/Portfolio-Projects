@@ -12,11 +12,12 @@ export const StyledNavbar = styled.div `
   padding: 0;
   width: 200px;
   /* text-align: center; */
-
+  position: fixed;
   a {
+    color: #083D77;
+    text-shadow: 2px .75px 2px grey;
     font-size:28px;
     display: block;
-    color: #000;
     padding: 28px 46px;
     text-decoration: none;
   }

@@ -8,6 +8,7 @@ import About from "./components/Pages/about";
 import Projects from "./components/Pages/Projects/projects";
 import Contact from "./components/Pages/contact";
 import Error from "./components/Pages/error";
+
 class App extends Component {
   render() {
     return (

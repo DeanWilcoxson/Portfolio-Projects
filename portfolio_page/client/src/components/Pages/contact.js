@@ -15,10 +15,23 @@ class Contact extends Component {
           <li>
             Github: <b></b>
           </li>
-          <li>
-            LinkedIn: <b></b>
-          </li>
-          <li></li>
+          
+            <div
+              class="badge-base LI-profile-badge"
+              data-locale="en_US"
+              data-size="medium"
+              data-theme="light"
+              data-type="VERTICAL"
+              data-vanity="dean-wilcoxson-900680201"
+              data-version="v1"
+            >
+              <a
+                class="badge-base__link LI-simple-link"
+                href="https://www.linkedin.com/in/dean-wilcoxson-900680201?trk=profile-badge"
+              >
+                Dean Wilcoxson
+              </a>
+            </div>
         </ul>
       </FlexContainer>
     );

@@ -29,7 +29,6 @@ class Contact extends Component {
                 class="badge-base__link LI-simple-link"
                 href="https://www.linkedin.com/in/dean-wilcoxson-900680201?trk=profile-badge"
               >
-                Dean Wilcoxson
               </a>
             </div>
         </ul>

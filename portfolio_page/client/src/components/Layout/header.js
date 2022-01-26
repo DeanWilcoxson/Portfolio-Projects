@@ -6,10 +6,10 @@ class Header extends Component {
     return (
       <FlexHeader>
         <StyledHeader>Dean Wilcoxson</StyledHeader>
-        <h3>| Junior Web Developer |</h3>
+        <h3>| Passionate Web Developer |</h3>
+        <img src={"../../images/Dean.jpg"} alt="" />
       </FlexHeader>
     );
   }
 }
 export default Header;
-// <img src={"../../images/Dean.jpg"} alt="" />;

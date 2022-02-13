@@ -1,17 +1,15 @@
 import styled from "styled-components";
 export const StyledNavbar = styled.div `
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: left;
-  /* align-items: left; */
+  align-items: left;
   background-color: E0D3DE;
-  /* margin: auto; */
-  /* padding: 50px; */
-  /* width: 40%; */
   margin: 0;
   padding: 0;
+  top: 50px;
   width: 200px;
-  /* text-align: center; */
+  text-align: center;
   position: fixed;
   a {
     color: #083D77;

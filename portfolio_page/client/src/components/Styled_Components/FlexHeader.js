@@ -16,4 +16,9 @@ export const FlexHeader = styled.div`
     color: #1e91d6;
     text-shadow: 0.5px 0.75px 0.25px grey;
   }
+  img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }  
 `;

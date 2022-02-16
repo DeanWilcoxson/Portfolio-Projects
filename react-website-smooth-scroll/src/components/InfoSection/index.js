@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "../ButtonElements";
-import img from "../../images/svg-1.svg";
 import {
   BtnWrap,
   Img,
@@ -24,6 +23,7 @@ const InfoSection = ({
   darkText,
   description,
   buttonLabel,
+  img,
   alt,
   headline,
   primary,

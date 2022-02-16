@@ -19,6 +19,7 @@ export const InfoWrapper = styled.div`
 `;
 export const InfoRow = styled.div`
   display: grid;
+  margin-top: 50px;
   grid-auto-columns: minmax(auto, 1fr)
   align-items:center;
   grid-template-areas:${({ imgStart }) =>
@@ -57,7 +58,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 2.6rem;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#0106016")};
+  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
   @media screen and (max-width: 480px) {
     font-size: 32px;
   }

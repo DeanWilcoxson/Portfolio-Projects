@@ -32,7 +32,7 @@ export const NavLogo = styled(RouterLink)`
   cursor: pointer;
   font-size: 1.5rem;
   display: flex;
-  align-itmes: center;
+  align-items: center;
   margin-top: 1.4rem;
   font-weight: bold;
   text-decoration: none;

@@ -66,16 +66,16 @@ export const MobileIcon = styled.div`
   display: none;
   @media screen and (max-width: 768px) {
     display: block;
-    position:absolute;
-    top:20px;
-    right:20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
     transform: translate(-100%, 60%);
-    font-size:1.8rem;
-    cursor:pointer;
-    color:#fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #fff;
     &:hover {
       color: #02b802;
-  }
+    }
   }
 `;
 export const NavMenu = styled.ul`

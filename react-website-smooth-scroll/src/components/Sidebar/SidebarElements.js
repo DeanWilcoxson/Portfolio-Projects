@@ -44,7 +44,7 @@ export const SidebarMenu = styled.ul`
   }
 `;
 export const SidebarLink = styled(ScrollLink)`
-    display: flex:
+    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;

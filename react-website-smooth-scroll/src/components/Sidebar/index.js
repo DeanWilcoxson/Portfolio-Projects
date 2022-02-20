@@ -37,5 +37,4 @@ const Sidebar = ({ isOpen, toggle }) => {
     </SidebarContainer>
   );
 };
-
 export default Sidebar;

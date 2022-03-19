@@ -10,6 +10,7 @@ const HeaderSection = () => {
     <HeaderContainer>
       <HeaderBox>
         <HeaderText>Dean Wilcoxson</HeaderText>;
+        <br/>
       </HeaderBox>
     </HeaderContainer>
   );

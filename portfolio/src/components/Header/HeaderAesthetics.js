@@ -5,13 +5,9 @@ export const HeaderContainer = styled.div`
   position: fixed;
   padding: 0 5rem;
   margin: 2rem;
-  border-left: 3px solid #0d0d0d;
-  border-bottom: 1px solid #0d0d0d;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
   box-shadow: grey 8px 8px 16px;
-  @media screen and (max-width: 768px) {
-    position: fixed;
-    margin: 0;
-  }
 `;
 export const HeaderBox = styled.div`
   display: flex;
@@ -19,6 +15,14 @@ export const HeaderBox = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  @media screen and (max-width: 768px) {
+    position: fixed;
+    margin: 0;
+  }
+  @media screen and (max-width: 499px) {
+    position: fixed;
+    margin: 0;
+  }
 `;
 export const HeaderText = styled.h1`
   text-align: center;
@@ -34,11 +38,14 @@ export const SocialBox = styled.div`
 export const SocialDescription = styled.p`
   font-weight: bolder;
   text-shadow: 1.5px 1px 2px grey;
-    color: #0d0d0d;
-
+  color: #0d0d0d;
 `;
 export const SocialLink = styled.a`
   padding: 1rem;
+  &:hover {
+    color: green;
+    cursor: pointer;
+  }
 `;
 export const LinkedInIcon = styled(FaLinkedin)`
   color: #0077b5;

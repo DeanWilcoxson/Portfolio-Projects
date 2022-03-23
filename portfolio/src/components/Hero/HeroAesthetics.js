@@ -3,7 +3,7 @@ import {} from "react-icons/";
 export const HeroContainer = styled.div`
   margin: 0;
   padding: 0;
-  position: relative;
+  width: 86.5%;
 `;
 export const HeroBox = styled.div``;
 export const HeroTitle = styled.h1``;

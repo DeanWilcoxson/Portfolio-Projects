@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <HeroContainer>
       <HeroBox>
-        <HeroTitle>My Journey</HeroTitle>
+        <HeroTitle>Hello!</HeroTitle>
         <HeroDesc>
           My name is Dean Wilcoxson, I am a Fullstack Developer and a Father.
           I have nearly three years experience writing code. 

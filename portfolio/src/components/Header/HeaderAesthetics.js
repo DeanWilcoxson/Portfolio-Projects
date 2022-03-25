@@ -48,8 +48,8 @@ export const SocialBox = styled.div`
 `;
 export const SocialDescription = styled.p`
   font-weight: bolder;
-  text-shadow: 1.5px 1px 2px grey;
-  color: #0d0d0d;
+  text-shadow: 1.5px 1px 2px lightgrey;
+  color: grey;
   @media screen and (max-width: 768px) {
     font-weight: normal;
     font-size: smaller;

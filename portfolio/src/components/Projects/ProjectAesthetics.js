@@ -1,0 +1,10 @@
+import styled from "styled-components";
+import { GoRepo } from "react-icons/go";
+export const ProjectContainer = styled.div``;
+export const ProjectTitle = styled.h1``;
+export const ProjectBox = styled.div``;
+export const ProjectList = styled.ul``;
+export const ProjectItem = styled.li``;
+export const ProjectImage = styled.img``;
+export const ProjectCode = styled.a``;
+export const CodeIcon = styled(GoRepo)``;

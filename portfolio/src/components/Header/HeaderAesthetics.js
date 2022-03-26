@@ -8,6 +8,8 @@ export const HeaderContainer = styled.div`
   border-right: 1px solid grey;
   border-bottom: 1px solid grey;
   box-shadow: grey 8px 8px 16px;
+  border-radius: 10px;
+
   @media screen and (max-width: 768px) {
     width: 60%;
     text-align: center;

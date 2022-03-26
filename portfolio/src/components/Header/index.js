@@ -7,7 +7,7 @@ import {
   GithubIcon,
   SocialLink,
   SocialBox,
-  SocialDescription
+  SocialDescription,
 } from "./HeaderAesthetics";
 
 const HeaderSection = () => {

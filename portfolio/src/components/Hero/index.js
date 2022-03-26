@@ -4,8 +4,18 @@ import {
   HeroBox,
   HeroTitle,
   HeroDesc,
-  // HeroList,
-  // HeroItem,
+  HeroList,
+  HtmlIcon,
+  CssIcon,
+  IconBox,
+  JsIcon,
+  PyIcon,
+  MySqlIcon,
+  ReactIcon,
+  IconLabel,
+  IconLink,
+  HeroListDesc,
+  // StyledCompIcon,
 } from "./HeroAesthetics";
 const HeroSection = () => {
   return (
@@ -17,19 +27,60 @@ const HeroSection = () => {
           my prior intravenuos drug use. I am now recovering, three years sober,
           and have graduated an Associates degree program for Fullstack Web
           Development. I did not give up or give in. Things were hard along the
-          way. I quit smoking nicotine also and that was the hardest thing to
-          quit. The point of this introduction is to highlight my
-          strength of will and determination. While also pointing out that I am
-          human. I have flaws, but my main goal is to overcome them as well as
-          provide a stable way of life for my children.
+          way. The point of this introduction is to highlight my strength of
+          will and determination, while also pointing out that I am human I have
+          flaws. My main goal in life is to overcome those flaws and continually
+          grow, as well as provide a stable way of life for my children.
         </HeroDesc>
-      </HeroBox>
-    </HeroContainer>
-  );
-};
+        <HeroListDesc>Languages:</HeroListDesc>
+        <HeroList>
+          <IconBox>
+            <IconLink href="https://www.w3schools.com/html/">
+              <HtmlIcon />
+            </IconLink>
+            <IconLabel>HTML5</IconLabel>
+          </IconBox>
+          <IconBox>
+            <IconLink href="https://www.w3schools.com/css/">
+              <CssIcon />
+            </IconLink>
+            <IconLabel>CSS3</IconLabel>
+          </IconBox>
+          <IconBox>
+            <IconLink href="https://www.w3schools.com/js/default.asp">
+              <JsIcon />
+            </IconLink>
+            <IconLabel>Javascript</IconLabel>
+          </IconBox>
+          <IconBox>
+            <IconLink href="https://reactjs.org/docs/getting-started.html">
+              <ReactIcon />
+            </IconLink>
+            <IconLabel>React.JS</IconLabel>
+          </IconBox>
+          <IconBox>
+            <IconLink href="https://www.python.org/doc/">
+              <PyIcon />
+            </IconLink>
+            <IconLabel>Python</IconLabel>
+          </IconBox>
+          <IconBox>
+            <IconLink href="https://dev.mysql.com/doc/">
+              <MySqlIcon />
+            </IconLink>
+            <IconLabel>MySQL</IconLabel>
+          </IconBox>
+          </HeroList>
+          </HeroBox>
+          </HeroContainer>
+          );
+        };
 
 export default HeroSection;
 
-// <HeroList>Strengths:
-//   <HeroItem></HeroItem>
-// </HeroList>
+        // <IconBox>
+        //   <IconLink href="https://styled-components.com/docs">
+        //     <StyledCompIcon />
+        //   </IconLink>
+        //   <IconLabel>Styled Components</IconLabel>
+        // </IconBox>

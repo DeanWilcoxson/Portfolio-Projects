@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
-import { SiJavascript, SiPython, SiStyledcomponents } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiJavascript, SiPython, SiChai, SiMocha } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 
 export const HeroContainer = styled.div`
@@ -18,6 +18,7 @@ export const HeroContainer = styled.div`
   }
 `;
 export const HeroBox = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -37,19 +38,22 @@ export const HeroDesc = styled.p`
 `;
 export const HeroListDesc = styled.h3`
   text-align: left;
+  text-shadow: 1.5px 1px 2px grey;
 `;
 export const HeroList = styled.ul`
   width: 100%;
   margin: 0;
   padding: 0;
-  color: #0d0d0d;
   font-weight: bold;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  /* border-left: solid 3px lightgrey; */
-  /* border-right: solid 3px lightgrey; */
+  list-style-type: none;
+`;
+export const HeroItem = styled.li`
+  color: grey;
+  text-shadow: 1.5px 1px 2px lightgrey;
 `;
 export const IconBox = styled.div`
   display: flex;
@@ -70,37 +74,71 @@ export const HtmlIcon = styled(FaHtml5)`
   color: #e34c26;
   font-size: 2rem;
   cursor: pointer;
+  &:hover {
+    color: green;
+  }
 `;
 export const CssIcon = styled(FaCss3Alt)`
   color: #264de4;
   font-size: 2rem;
   cursor: pointer;
+  &:hover {
+    color: green;
+  }
 `;
 export const JsIcon = styled(SiJavascript)`
   color: #f0db4f;
   font-size: 2rem;
   cursor: pointer;
+  &:hover {
+    color: green;
+  }
 `;
 export const PyIcon = styled(SiPython)`
   color: #306998;
   font-size: 2rem;
   cursor: pointer;
+  &:hover {
+    color: green;
+  }
 `;
 export const MySqlIcon = styled(GrMysql)`
   color: #00758f;
   font-size: 2rem;
   cursor: pointer;
+  &:hover {
+    color: green;
+  }
 `;
 export const ReactIcon = styled(FaReact)`
   color: #61dbfb;
   font-size: 2rem;
   cursor: pointer;
+  &:hover {
+    color: green;
+  }
 `;
-export const StyledCompIcon = styled(SiStyledcomponents)`
-  color: purple;
-  font-size: 3.5rem;
-  padding: 0;
-  margin: 0;
+export const NodeIcon = styled(FaNodeJs)`
+  color: #3c873a;
+  font-size: 2rem;
   cursor: pointer;
-  width: 100%;
+  &:hover {
+    color: green;
+  }
+`;
+export const MochaIcon = styled(SiMocha)`
+  color: #6f372d;
+  font-size: 2rem;
+  cursor: pointer;
+  &:hover {
+    color: green;
+  }
+`;
+export const ChaiIcon = styled(SiChai)`
+  color: #b1832f;
+  font-size: 2rem;
+  cursor: pointer;
+  &:hover {
+    color: green;
+  }
 `;

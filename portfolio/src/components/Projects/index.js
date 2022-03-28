@@ -3,16 +3,27 @@ import {
   ProjectContainer,
   ProjectTitle,
   ProjectBox,
-  ProjectItem,
+  ProjectImage,
   ProjectList,
+  ProjectItem,
+  ProjectLink,
+  CodeIcon,
 } from "./ProjectAesthetics";
-const Project = () => {
+const ProjectSection = () => {
   return (
     <ProjectContainer>
-      <ProjectTitle></ProjectTitle>
-      <ProjectBox></ProjectBox>
+      <ProjectTitle>Project 1</ProjectTitle>
+      <ProjectBox>
+        <ProjectImage src="" alt="" />
+        <ProjectList>
+          <ProjectItem></ProjectItem>
+        </ProjectList>
+        <ProjectLink>
+          <CodeIcon />
+        </ProjectLink>
+      </ProjectBox>
     </ProjectContainer>
   );
 };
 
-export default Project;
+export default ProjectSection;

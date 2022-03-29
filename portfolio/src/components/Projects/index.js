@@ -7,7 +7,9 @@ import {
   ProjectList,
   ProjectItem,
   ProjectLink,
-  CodeIcon,
+  GithubIcon,
+  ProjectListDesc,
+  ProjectLinkDesc,
 } from "./ProjectAesthetics";
 const ProjectSection = () => {
   return (
@@ -16,11 +18,13 @@ const ProjectSection = () => {
       <ProjectBox>
         <ProjectImage src="" alt="" />
         <ProjectList>
+          <ProjectListDesc>Languages Used</ProjectListDesc>
           <ProjectItem></ProjectItem>
         </ProjectList>
         <ProjectLink>
-          <CodeIcon />
+          <GithubIcon />
         </ProjectLink>
+        <ProjectLinkDesc>View Code</ProjectLinkDesc>
       </ProjectBox>
     </ProjectContainer>
   );

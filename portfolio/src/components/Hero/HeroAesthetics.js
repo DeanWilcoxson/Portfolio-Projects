@@ -1,6 +1,13 @@
 import styled from "styled-components";
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiJavascript, SiPython, SiChai, SiMocha } from "react-icons/si";
+import {
+  SiJavascript,
+  SiPython,
+  SiChai,
+  SiMocha,
+  SiExpress,
+  SiMongodb,
+} from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 
 export const HeroContainer = styled.div`
@@ -24,17 +31,18 @@ export const HeroBox = styled.div`
   justify-content: flex-start;
   align-items: center;
   padding: 1rem;
+  /* text-align: left; */
 `;
 export const HeroTitle = styled.h1`
-  text-align: left;
   text-shadow: 1.5px 1px 2px grey;
 `;
 export const HeroDesc = styled.p`
   color: grey;
-  text-align: left;
+  text-align: justify;
   font-size: 1rem;
   font-weight: bold;
   text-shadow: 1.5px 1px 2px lightgrey;
+  text-indent: 2.5rem;
 `;
 export const HeroListDesc = styled.h3`
   text-align: left;
@@ -43,24 +51,34 @@ export const HeroListDesc = styled.h3`
 export const HeroList = styled.ul`
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 1rem 0;
   font-weight: bold;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   list-style-type: none;
+  text-decoration: none;
 `;
-export const HeroItem = styled.li`
+export const HeroItem = styled.a`
+  text-decoration: none;
   color: grey;
+  padding: 0 1rem;
   text-shadow: 1.5px 1px 2px lightgrey;
+  box-shadow: grey 3px 3px 6px;
+  border-radius: 5px;
+  &:hover {
+    color: green;
+  }
 `;
 export const IconBox = styled.div`
   display: flex;
+  padding: 0 0.5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* cursor: pointer; */
+  box-shadow: grey 3px 3px 6px;
+  border-radius: 5px;
 `;
 export const IconLink = styled.a`
   cursor: pointer;
@@ -136,6 +154,22 @@ export const MochaIcon = styled(SiMocha)`
 `;
 export const ChaiIcon = styled(SiChai)`
   color: #b1832f;
+  font-size: 2rem;
+  cursor: pointer;
+  &:hover {
+    color: green;
+  }
+`;
+export const ExpressIcon = styled(SiExpress)`
+  color: #0d0d0d;
+  font-size: 2rem;
+  cursor: pointer;
+  &:hover {
+    color: green;
+  }
+`;
+export const MongoIcon = styled(SiMongodb)`
+  color: #4db33d;
   font-size: 2rem;
   cursor: pointer;
   &:hover {

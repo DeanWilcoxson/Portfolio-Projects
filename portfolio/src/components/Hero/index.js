@@ -19,23 +19,29 @@ import {
   NodeIcon,
   MochaIcon,
   ChaiIcon,
+  ExpressIcon,
+  MongoIcon,
 } from "./HeroAesthetics";
 const HeroSection = () => {
   const years = "Three";
+  const age = "thirty";
   return (
     <HeroContainer>
       <HeroBox>
-        <HeroTitle>About Me:</HeroTitle>
+        <HeroTitle>About</HeroTitle>
         <HeroDesc>
-          {years} years ago, I was diagnosed with Congestive Heart Failure due
-          to my prior intravenuos drug use. I am now recovering, three years
-          sober, and have graduated an Associates degree program for Fullstack
-          Web Development. Things were hard along the way but I did not give up.
-          The point of this introduction is to highlight my strength of will and
-          determination, while also pointing out that I am human I have flaws.
-          My main goal in life is to overcome those flaws and continually grow,
-          as well as provide a stable way of life for my children.
+          I am from a small town called Oakdale in CaLifornia. I am {age + " "} years old.
+          {" " + years + " "}
+          years ago I was diagnosed with Congestive Heart Failure due to my
+          prior drug use, I am now in recovery, three years sober. I have
+          graduated an Associates degree program for Fullstack Web Development,
+          focusing on the M.E.R.N and L.A.M.P Stacks. Things definitely were
+          hard along the way but I did not give up. My main goal in life is to
+          overcome adversity and continually grow, as well as provide a stable
+          way of life for my children. I believe these qualities, as well as
+          others, will make me a valuable member of your team.
         </HeroDesc>
+        <hr width="100%" />
         <HeroListDesc>Languages:</HeroListDesc>
         <HeroList>
           <IconBox>
@@ -69,18 +75,6 @@ const HeroSection = () => {
             <IconLabel>Node.JS</IconLabel>
           </IconBox>
           <IconBox>
-            <IconLink href="https://www.python.org/doc/">
-              <PyIcon />
-            </IconLink>
-            <IconLabel>Python</IconLabel>
-          </IconBox>
-          <IconBox>
-            <IconLink href="https://dev.mysql.com/doc/">
-              <MySqlIcon />
-            </IconLink>
-            <IconLabel>MySQL</IconLabel>
-          </IconBox>
-          <IconBox>
             <IconLink href="https://mochajs.org/">
               <MochaIcon />
             </IconLink>
@@ -92,18 +86,58 @@ const HeroSection = () => {
             </IconLink>
             <IconLabel>Chai.JS</IconLabel>
           </IconBox>
+          <IconBox>
+            <IconLink href="https://expressjs.com/">
+              <ExpressIcon />
+            </IconLink>
+            <IconLabel>Express.JS</IconLabel>
+          </IconBox>
+          <IconBox>
+            <IconLink href="https://www.mongodb.com/">
+              <MongoIcon />
+            </IconLink>
+            <IconLabel>MongoDB</IconLabel>
+          </IconBox>
+          <IconBox>
+            <IconLink href="https://dev.mysql.com/doc/">
+              <MySqlIcon />
+            </IconLink>
+            <IconLabel>MySQL</IconLabel>
+          </IconBox>
+          <IconBox>
+            <IconLink href="https://www.python.org/doc/">
+              <PyIcon />
+            </IconLink>
+            <IconLabel>Python</IconLabel>
+          </IconBox>
         </HeroList>
-        <HeroListDesc>Concepts</HeroListDesc>
+        <hr width="100%" />
+        <HeroListDesc>Concepts:</HeroListDesc>
         <HeroList>
-          <HeroItem>Semantic HTML</HeroItem>
-          <HeroItem>Styled Components</HeroItem>
-          <HeroItem>OOP</HeroItem>
-          <HeroItem>TDD</HeroItem>
-          <HeroItem>State Management</HeroItem>
-          <HeroItem>Middleware</HeroItem>
-          <HeroItem>Encapsulation</HeroItem>
-          <HeroItem>Data Structures</HeroItem>
-          <HeroItem>Algirithms</HeroItem>
+          <HeroItem href="https://www.w3schools.com/html/html5_semantic_elements.asp">
+            Semantic HTML
+          </HeroItem>
+          <HeroItem href="https://styled-components.com/docs">
+            Styled Components
+          </HeroItem>
+          <HeroItem href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming">
+            OOP
+          </HeroItem>
+          <HeroItem href="https://en.wikipedia.org/wiki/Test-driven_development">
+            TDD
+          </HeroItem>
+          <HeroItem href="https://reactjs.org/docs/state-and-lifecycle.html">
+            State Management
+          </HeroItem>
+          <HeroItem href="https://expressjs.com/en/guide/using-middleware.html">
+            Middleware
+          </HeroItem>
+          <HeroItem href="https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)">
+            Encapsulation
+          </HeroItem>
+          <HeroItem href="https://realpython.com/python-data-structures/">
+            Data Structures
+          </HeroItem>
         </HeroList>
       </HeroBox>
     </HeroContainer>

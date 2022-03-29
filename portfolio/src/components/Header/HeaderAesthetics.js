@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 export const HeaderContainer = styled.div`
   width: 80%;
-  /* position: fixed; */
   padding: 0 5rem;
   margin: 2rem;
   border-right: 1px solid grey;

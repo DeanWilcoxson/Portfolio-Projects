@@ -11,7 +11,6 @@ import CredlyImage9 from "../../images/CredlyImage9.JPG";
 import CredlyImage10 from "../../images/CredlyImage10.JPG";
 import CredlyImage11 from "../../images/CredlyImage11.JPG";
 import CredlyImage12 from "../../images/CredlyImage12.JPG";
-
 import {
   HeroContainer,
   HeroBox,
@@ -20,24 +19,26 @@ import {
   HeroList,
   BadgeList,
   HeroItem,
-  BadgeItem,
-  HtmlIcon,
+  // BadgeItem,
   HeroImage,
-  CssIcon,
   IconBox,
+  IconLabel,
+  IconLink,
+  HeroListDesc,
+} from "./HeroAesthetics";
+import {
+  HtmlIcon,
+  CssIcon,
   JsIcon,
   PyIcon,
   MySqlIcon,
   ReactIcon,
-  IconLabel,
-  IconLink,
-  HeroListDesc,
   NodeIcon,
   MochaIcon,
   ChaiIcon,
   ExpressIcon,
   MongoIcon,
-} from "./HeroAesthetics";
+} from "./HeroIcons";
 const HeroSection = () => {
   const years = "Three";
   const age = "thirty";
@@ -161,10 +162,7 @@ const HeroSection = () => {
         <HeroListDesc>Badges:</HeroListDesc>
         <HeroDesc>Issued by Bryan University</HeroDesc>
         <BadgeList>
-          <BadgeItem href="https://www.credly.com/earner/earned/badge/e841c5c0-3f5f-4949-a05c-d38e35221be7">
-            <HeroImage src={CredlyImage12} alt="badge" />
-          </BadgeItem>
-
+          <HeroImage src={CredlyImage12} alt="badge" />
           <HeroImage src={CredlyImage4} alt="badge" />
           <HeroImage src={CredlyImage5} alt="badge" />
           <HeroImage src={CredlyImage11} alt="badge" />
@@ -181,5 +179,7 @@ const HeroSection = () => {
     </HeroContainer>
   );
 };
+// <BadgeItem href="https://www.credly.com/earner/earned/badge/e841c5c0-3f5f-4949-a05c-d38e35221be7">
 
+// </BadgeItem>
 export default HeroSection;

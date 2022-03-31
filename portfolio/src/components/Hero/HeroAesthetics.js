@@ -31,7 +31,6 @@ export const HeroBox = styled.div`
   justify-content: flex-start;
   align-items: center;
   padding: 1rem;
-  /* text-align: left; */
 `;
 export const HeroTitle = styled.h1`
   text-shadow: 1.5px 1px 2px grey;
@@ -51,14 +50,25 @@ export const HeroListDesc = styled.h3`
 export const HeroList = styled.ul`
   width: 100%;
   margin: 0;
-  padding: 1rem 0;
+  padding: 0;
   font-weight: bold;
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   list-style-type: none;
   text-decoration: none;
+`;
+export const BadgeList = styled.ul`
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
 `;
 export const HeroItem = styled.a`
   text-decoration: none;
@@ -70,6 +80,22 @@ export const HeroItem = styled.a`
   &:hover {
     color: green;
   }
+`;
+export const BadgeItem = styled.a`
+  text-decoration: none;
+  color: grey;
+  padding: 0 1rem;
+  text-shadow: 1.5px 1px 2px lightgrey;
+  border-radius: 5px;
+  &:hover {
+    color: green;
+  }
+`;
+export const HeroImage = styled.img`
+  width: 60%;
+  padding: 0.5rem 1.75rem;
+  box-shadow: grey 4px 4px 8px;
+  border-radius: 5px;
 `;
 export const IconBox = styled.div`
   display: flex;

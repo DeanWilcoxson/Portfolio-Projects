@@ -1,12 +1,28 @@
 import React from "react";
+import CredlyImage1 from "../../images/CredlyImage1.JPG";
+import CredlyImage2 from "../../images/CredlyImage2.JPG";
+import CredlyImage3 from "../../images/CredlyImage3.JPG";
+import CredlyImage4 from "../../images/CredlyImage4.JPG";
+import CredlyImage5 from "../../images/CredlyImage5.JPG";
+import CredlyImage6 from "../../images/CredlyImage6.JPG";
+import CredlyImage7 from "../../images/CredlyImage7.JPG";
+import CredlyImage8 from "../../images/CredlyImage8.JPG";
+import CredlyImage9 from "../../images/CredlyImage9.JPG";
+import CredlyImage10 from "../../images/CredlyImage10.JPG";
+import CredlyImage11 from "../../images/CredlyImage11.JPG";
+import CredlyImage12 from "../../images/CredlyImage12.JPG";
+
 import {
   HeroContainer,
   HeroBox,
   HeroTitle,
   HeroDesc,
   HeroList,
+  BadgeList,
   HeroItem,
+  BadgeItem,
   HtmlIcon,
+  HeroImage,
   CssIcon,
   IconBox,
   JsIcon,
@@ -143,7 +159,24 @@ const HeroSection = () => {
         </HeroList>
         <hr width="100%" />
         <HeroListDesc>Badges:</HeroListDesc>
-        <HeroList></HeroList>
+        <HeroDesc>Issued by Bryan University</HeroDesc>
+        <BadgeList>
+          <BadgeItem href="https://www.credly.com/earner/earned/badge/e841c5c0-3f5f-4949-a05c-d38e35221be7">
+            <HeroImage src={CredlyImage12} alt="badge" />
+          </BadgeItem>
+
+          <HeroImage src={CredlyImage4} alt="badge" />
+          <HeroImage src={CredlyImage5} alt="badge" />
+          <HeroImage src={CredlyImage11} alt="badge" />
+          <HeroImage src={CredlyImage1} alt="badge" />
+          <HeroImage src={CredlyImage9} alt="badge" />
+          <HeroImage src={CredlyImage10} alt="badge" />
+          <HeroImage src={CredlyImage7} alt="badge" />
+          <HeroImage src={CredlyImage2} alt="badge" />
+          <HeroImage src={CredlyImage3} alt="badge" />
+          <HeroImage src={CredlyImage8} alt="badge" />
+          <HeroImage src={CredlyImage6} alt="badge" />
+        </BadgeList>
       </HeroBox>
     </HeroContainer>
   );

@@ -30,7 +30,8 @@ const HeroSection = () => {
       <HeroBox>
         <HeroTitle>About</HeroTitle>
         <HeroDesc>
-          I am from a small town called Oakdale, in California. I am {age + " "} years old.
+          I am from a small town called Oakdale, in California. I am {age + " "}{" "}
+          years old.
           {" " + years + " "}
           years ago I was diagnosed with Congestive Heart Failure due to my
           prior drug use, I am now in recovery, three years sober. I have
@@ -138,7 +139,11 @@ const HeroSection = () => {
           <HeroItem href="https://realpython.com/python-data-structures/">
             Data Structures
           </HeroItem>
+          <HeroItem href="https://restfulapi.net/">RESTful API</HeroItem>
         </HeroList>
+        <hr width="100%" />
+        <HeroListDesc>Badges:</HeroListDesc>
+        <HeroList></HeroList>
       </HeroBox>
     </HeroContainer>
   );

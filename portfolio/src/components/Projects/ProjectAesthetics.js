@@ -18,6 +18,25 @@ export const ProjectTitle = styled.h1`
   text-shadow: 1.5px 1px 2px grey;
   color: #0d0d0d;
 `;
+export const ProjectLink = styled.a`
+  margin: 0;
+  padding: 0;
+`;
+export const GithubIcon = styled(FaGithub)`
+  color: #171515;
+  font-size: 2rem;
+  &:hover {
+    color: green;
+    cursor: pointer;
+  }
+`;
+export const ProjectTopLine = styled.div`
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
 export const ProjectBox = styled.div`
   display: flex;
   flex-direction: column;
@@ -50,13 +69,5 @@ export const ProjectItem = styled.li`
 `;
 export const ProjectImage = styled.img`
   align-self: center;
-`;
-export const ProjectLink = styled.a``;
-export const GithubIcon = styled(FaGithub)`
-  color: #171515;
-  font-size: 2rem;
-  &:hover {
-    color: green;
-    cursor: pointer;
-  }
+  border-radius: 5px;
 `;

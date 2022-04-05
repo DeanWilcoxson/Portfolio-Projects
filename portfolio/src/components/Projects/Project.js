@@ -27,7 +27,7 @@ const Project = (props) => {
           <ProjectListDesc>Languages:</ProjectListDesc>
           {props.data.languages.map((language) => {
             return (
-              <ProjectItem key={props.data.languages.indexOf(language)}>
+              <ProjectItem key={props.data.languages.indexOf(language)+1}>
                 {language}
               </ProjectItem>
             );
@@ -36,7 +36,11 @@ const Project = (props) => {
         <ProjectList>
           <ProjectListDesc>Concepts:</ProjectListDesc>
           {props.data.concepts.map((concept) => {
-            return <ProjectItem>{concept}</ProjectItem>;
+            return (
+              <ProjectItem key={props.data.concepts.indexOf(concept)+1}>
+                {concept}
+              </ProjectItem>
+            );
           })}
         </ProjectList>
       </ProjectListBox>

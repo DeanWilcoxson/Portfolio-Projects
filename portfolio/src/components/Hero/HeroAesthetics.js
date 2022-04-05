@@ -22,10 +22,15 @@ export const HeroBox = styled.div`
   align-items: center;
   padding: 1rem;
 `;
+export const ClickText = styled.p`
+  margin: 0;
+  padding: 0;
+`;
 export const HeroTitle = styled.h1`
   text-shadow: 1.5px 1px 2px grey;
 `;
 export const HeroDesc = styled.p`
+  width:90%;
   color: grey;
   text-align: justify;
   font-size: 1rem;
@@ -42,15 +47,29 @@ export const HeroList = styled.ul`
   margin: 0;
   padding: 0;
   font-weight: bold;
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto; */
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   list-style-type: none;
   text-decoration: none;
+  @media screen and (max-width: 900px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    place-items: center;
+    paddding: 1rem 0;
+  }
+  @media screen and (max-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+  @media screen and (max-width: 407px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 export const BadgeList = styled.ul`
   width: 100%;
@@ -60,6 +79,20 @@ export const BadgeList = styled.ul`
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   place-items: center;
+  @media screen and (max-width: 900px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    place-items: center;
+    paddding: 1rem 0;
+  }
+  @media screen and (max-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+  @media screen and (max-width: 400px) {
+  }
 `;
 export const HeroItem = styled.a`
   text-decoration: none;
@@ -72,16 +105,16 @@ export const HeroItem = styled.a`
     color: green;
   }
 `;
-export const BadgeItem = styled.a`
-  text-decoration: none;
-  color: grey;
-  padding: 0 1rem;
-  text-shadow: 1.5px 1px 2px lightgrey;
-  border-radius: 5px;
-  &:hover {
-    background-color: green;
-  }
-`;
+// export const BadgeItem = styled.a`
+//   text-decoration: none;
+//   color: grey;
+//   padding: 0 1rem;
+//   text-shadow: 1.5px 1px 2px lightgrey;
+//   border-radius: 5px;
+//   &:hover {
+//     background-color: green;
+//   }
+// `;
 export const HeroImage = styled.img`
   background-color: white;
   width: 60%;
@@ -106,4 +139,3 @@ export const IconLabel = styled.label`
   color: grey;
   text-shadow: 1.5px 1px 2px lightgrey;
 `;
-

@@ -19,6 +19,7 @@ import {
   HeroList,
   BadgeList,
   HeroItem,
+  ClickText,
   // BadgeItem,
   HeroImage,
   IconBox,
@@ -61,6 +62,7 @@ const HeroSection = () => {
         </HeroDesc>
         <hr width="100%" />
         <HeroListDesc>Languages:</HeroListDesc>
+        <ClickText>(Click one to learn more about it.)</ClickText>
         <HeroList>
           <IconBox>
             <IconLink href="https://www.w3schools.com/html/">
@@ -131,6 +133,7 @@ const HeroSection = () => {
         </HeroList>
         <hr width="100%" />
         <HeroListDesc>Concepts:</HeroListDesc>
+        <ClickText>(Click one to learn more about it.)</ClickText>
         <HeroList>
           <HeroItem href="https://www.w3schools.com/html/html5_semantic_elements.asp">
             Semantic HTML
@@ -160,7 +163,7 @@ const HeroSection = () => {
         </HeroList>
         <hr width="100%" />
         <HeroListDesc>Badges:</HeroListDesc>
-        <HeroDesc>Issued by Bryan University</HeroDesc>
+        <ClickText>Issued by Bryan University</ClickText>
         <BadgeList>
           <HeroImage src={CredlyImage12} alt="badge" />
           <HeroImage src={CredlyImage4} alt="badge" />
@@ -179,7 +182,6 @@ const HeroSection = () => {
     </HeroContainer>
   );
 };
-// <BadgeItem href="https://www.credly.com/earner/earned/badge/e841c5c0-3f5f-4949-a05c-d38e35221be7">
+// <BadgeItem href="https://www.credly.com/earner/earned/badge/e841c5c0-3f5f-4949-a05c-d38e35221be7"></BadgeItem>
 
-// </BadgeItem>
 export default HeroSection;

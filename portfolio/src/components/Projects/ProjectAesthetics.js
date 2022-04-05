@@ -46,6 +46,9 @@ export const ProjectBox = styled.div`
 export const ProjectList = styled.ul`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
 `;
 export const ProjectListBox = styled.div`
   width: 90%;
@@ -64,8 +67,6 @@ export const ProjectItem = styled.li`
   padding: 1.4rem 0;
   text-shadow: 1.5px 1px 2px lightgrey;
   list-style-type: none;
-  /* box-shadow: grey 3px 3px 6px; */
-  /* border-radius: 5px; */
 `;
 export const ProjectImage = styled.img`
   align-self: center;

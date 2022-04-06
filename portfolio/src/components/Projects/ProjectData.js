@@ -20,11 +20,12 @@ export const projTwo = {
 };
 export const projThree = {
   id: uuidv4(),
-  name: "Fridge Buddy",
-  image: `${FridgeBuddyPreview}`,
-  languages: [""],
+  name: "Madlib.PY",
+  image: `${}`,
+  languages: ["Python",],
   concepts: [""],
-  link: "",
+  link:
+    "https://github.com/DeanWilcoxson/Portfolio-Projects/blob/main/madlib_generators/madlib.js",
 };
 export const projFour = {
   id: uuidv4(),

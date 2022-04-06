@@ -15,7 +15,8 @@ export const projTwo = {
   image: `${MadlibJSPreview}`,
   languages: ["Node.js", "Javascript"],
   concepts: ["Template Literals"],
-  link: "",
+  link:
+    "https://github.com/DeanWilcoxson/Portfolio-Projects/blob/main/madlib_generators/madlib.js",
 };
 export const projThree = {
   id: uuidv4(),

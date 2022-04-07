@@ -1,12 +1,15 @@
 import FridgeBuddyPreview from "../../images/FridgeBuddyPreview.JPG";
 import MadlibJSPreview from "../../images/MadlibJSPreview.JPG";
+import MadlibPYPreview from "../../images/MadlibPYPreview.JPG";
+import WalmartJSPreview from "../../images/WalmartJSPreview.JPG";
+import MediaPlayerPYPreview from "../../images/MediaPlayerPYPreview.JPG";
 import { v4 as uuidv4 } from "uuid";
 export const projOne = {
   id: uuidv4(),
   name: "Fridge Buddy",
   image: `${FridgeBuddyPreview}`,
-  languages: ["HTML5", "React.JS", "Express.JS", "MongoDB", "Axios", "Bcrypt"],
-  concepts: ["API Database", "Styled Components", "Encapsulation"],
+  languages: ["HTML5", "React.JS", "Express.JS", "MongoDB", "Axios", "Bcrypt",],
+  concepts: ["API Database", "Styled Components",],
   link: "https://github.com/DeanWilcoxson/AFS-220/tree/main/FridgeBuddy",
 };
 export const projTwo = {
@@ -14,24 +17,49 @@ export const projTwo = {
   name: "Madlib.JS",
   image: `${MadlibJSPreview}`,
   languages: ["Node.js", "Javascript"],
-  concepts: ["Template Literals"],
+  concepts: ["Template Literals", "Readline-Sync"],
   link:
     "https://github.com/DeanWilcoxson/Portfolio-Projects/blob/main/madlib_generators/madlib.js",
 };
 export const projThree = {
   id: uuidv4(),
   name: "Madlib.PY",
-  image: `${}`,
-  languages: ["Python",],
-  concepts: [""],
+  image: `${MadlibPYPreview}`,
+  languages: ["Python"],
+  concepts: ["F strings"],
   link:
-    "https://github.com/DeanWilcoxson/Portfolio-Projects/blob/main/madlib_generators/madlib.js",
+    "https://github.com/DeanWilcoxson/Portfolio-Projects/blob/main/madlib_generators/madlib.py",
 };
 export const projFour = {
   id: uuidv4(),
-  name: "Fridge Buddy",
-  image: `${FridgeBuddyPreview}`,
-  languages: [""],
-  concepts: [""],
-  link: "",
+  name: "Walmart.JS",
+  image: `${WalmartJSPreview}`,
+  languages: ["Node.js", "Mocha", "Chai", "Javascript"],
+  concepts: ["Test Driven Development"],
+  link: "https://github.com/DeanWilcoxson/AFS-215/tree/main/week7/walmart",
 };
+export const projFive = {
+  id: uuidv4(),
+  name: "MediaPlayer.PY",
+  image: `${MediaPlayerPYPreview}`,
+  languages: ["Python"],
+  concepts: ["Data Structures"],
+  link:
+    "https://github.com/DeanWilcoxson/AFS-210/blob/main/week7/Capstone_Media_Player.py",
+};
+// export const projSix = {
+//   id: uuidv4(),
+//   name: "",
+//   image: `${}`,
+//   languages: [""],
+//   concepts: [""],
+//   link: "",
+// };
+// export const projSeven = {
+//   id: uuidv4(),
+//   name: "",
+//   image: `${}`,
+//   languages: [""],
+//   concepts: [""],
+//   link: "",
+// };

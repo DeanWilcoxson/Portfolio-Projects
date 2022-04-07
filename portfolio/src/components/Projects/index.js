@@ -1,7 +1,15 @@
 import React from "react";
 import Project from "./Project";
 import { ProjectContainer } from "./ProjectAesthetics";
-import { projOne, projTwo, projThree, projFour } from "./ProjectData";
+import {
+  projOne,
+  projTwo,
+  projThree,
+  projFour,
+  projFive,
+  // projSix,
+  // projSeven,
+} from "./ProjectData";
 const ProjectSection = () => {
   console.log(projOne);
   return (
@@ -18,8 +26,17 @@ const ProjectSection = () => {
       <ProjectContainer key={projFour.id}>
         <Project data={projFour} />
       </ProjectContainer>
+      <ProjectContainer key={projFive.id}>
+        <Project data={projFive} />
+      </ProjectContainer>
     </>
   );
 };
+// <ProjectContainer key={projSix.id}>
+//   <Project data={projSix} />
+// </ProjectContainer>
+// <ProjectContainer key={projSeven.id}>
+//   <Project data={projSeven} />
+// </ProjectContainer>
 
 export default ProjectSection;

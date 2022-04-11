@@ -23,8 +23,8 @@ const Project = (props) => {
       </ProjectTopLine>
       <ProjectImage src={props.data.image} alt="pic" width="90%" height="50%" />
       <ProjectListBox>
+      <ProjectListDesc>Languages:</ProjectListDesc>
         <ProjectList>
-          <ProjectListDesc>Languages:</ProjectListDesc>
           {props.data.languages.map((language) => {
             return (
               <ProjectItem key={props.data.languages.indexOf(language)+1}>
@@ -33,8 +33,8 @@ const Project = (props) => {
             );
           })}
         </ProjectList>
+        <ProjectListDesc>Concepts:</ProjectListDesc>
         <ProjectList>
-          <ProjectListDesc>Concepts:</ProjectListDesc>
           {props.data.concepts.map((concept) => {
             return (
               <ProjectItem key={props.data.concepts.indexOf(concept)+1}>

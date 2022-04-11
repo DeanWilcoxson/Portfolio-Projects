@@ -5,14 +5,21 @@ import WalmartJSPreview from "../../images/WalmartJSPreview.JPG";
 import MediaPlayerPYPreview from "../../images/MediaPlayerPYPreview.JPG";
 import Fsw130Capstone from "../../images/Fsw130Capstone.JPG";
 import TheBountyHunter from "../../images/TheBountyHunter.JPG";
-
+import VotingApp from "../../images/VotingApp.JPG";
 import { v4 as uuidv4 } from "uuid";
 export const projOne = {
   id: uuidv4(),
   name: "Fridge Buddy",
   image: `${FridgeBuddyPreview}`,
-  languages: ["React.JS", "Express.JS", "MongoDB", "Axios", "Bcrypt"],
-  concepts: ["API Database", "Styled Components"],
+  languages: [
+    "React.JS",
+    "Express.JS",
+    "MongoDB",
+    "Axios",
+    "Bcrypt",
+    "Mongoose",
+  ],
+  concepts: ["API Database", "Styled Components", "Authentication"],
   link: "https://github.com/DeanWilcoxson/AFS-220/tree/main/FridgeBuddy",
 };
 export const projTwo = {
@@ -65,5 +72,13 @@ export const projSeven = {
   image: `${TheBountyHunter}`,
   languages: ["React.JS", "Axios", "Express.JS"],
   concepts: ["JSON", "Middleware", "State Hooks"],
+  link: "https://github.com/DeanWilcoxson/Fsw-125/tree/main/week7/Capstone",
+};
+export const projEight = {
+  id: uuidv4(),
+  name: "Voting App",
+  image: `${VotingApp}`,
+  languages: ["React.JS", "Axios", "Express.JS", "Bcrypt", "Mongoose"],
+  concepts: ["Middleware", "State Managment", "Authentication"],
   link: "https://github.com/DeanWilcoxson/Fsw-125/tree/main/week7/Capstone",
 };

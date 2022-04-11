@@ -9,6 +9,7 @@ import {
   projFive,
   projSix,
   projSeven,
+  projEight,
 } from "./ProjectData";
 const ProjectSection = () => {
   console.log(projOne);
@@ -34,6 +35,9 @@ const ProjectSection = () => {
       </ProjectContainer>
       <ProjectContainer key={projSeven.id}>
         <Project data={projSeven} />
+      </ProjectContainer>
+      <ProjectContainer key={projEight.id}>
+        <Project data={projEight} />
       </ProjectContainer>
     </>
   );

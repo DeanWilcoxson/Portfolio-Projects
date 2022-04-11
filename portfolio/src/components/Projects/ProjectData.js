@@ -3,13 +3,16 @@ import MadlibJSPreview from "../../images/MadlibJSPreview.JPG";
 import MadlibPYPreview from "../../images/MadlibPYPreview.JPG";
 import WalmartJSPreview from "../../images/WalmartJSPreview.JPG";
 import MediaPlayerPYPreview from "../../images/MediaPlayerPYPreview.JPG";
+import Fsw130Capstone from "../../images/Fsw130Capstone.JPG";
+import TheBountyHunter from "../../images/TheBountyHunter.JPG";
+
 import { v4 as uuidv4 } from "uuid";
 export const projOne = {
   id: uuidv4(),
   name: "Fridge Buddy",
   image: `${FridgeBuddyPreview}`,
-  languages: ["HTML5", "React.JS", "Express.JS", "MongoDB", "Axios", "Bcrypt",],
-  concepts: ["API Database", "Styled Components",],
+  languages: ["React.JS", "Express.JS", "MongoDB", "Axios", "Bcrypt"],
+  concepts: ["API Database", "Styled Components"],
   link: "https://github.com/DeanWilcoxson/AFS-220/tree/main/FridgeBuddy",
 };
 export const projTwo = {
@@ -47,19 +50,20 @@ export const projFive = {
   link:
     "https://github.com/DeanWilcoxson/AFS-210/blob/main/week7/Capstone_Media_Player.py",
 };
-// export const projSix = {
-//   id: uuidv4(),
-//   name: "",
-//   image: `${}`,
-//   languages: [""],
-//   concepts: [""],
-//   link: "",
-// };
-// export const projSeven = {
-//   id: uuidv4(),
-//   name: "",
-//   image: `${}`,
-//   languages: [""],
-//   concepts: [""],
-//   link: "",
-// };
+export const projSix = {
+  id: uuidv4(),
+  name: "Character List",
+  image: `${Fsw130Capstone}`,
+  languages: ["React.JS", "Redux.JS"],
+  concepts: ["State Management", "API Database", "Single-Page Application"],
+  link:
+    "https://github.com/DeanWilcoxson/Fsw-130/tree/main/week7/Capstone/capstone",
+};
+export const projSeven = {
+  id: uuidv4(),
+  name: "The Bounty Hunter",
+  image: `${TheBountyHunter}`,
+  languages: ["React.JS", "Axios", "Express.JS"],
+  concepts: ["JSON", "Middleware", "State Hooks"],
+  link: "https://github.com/DeanWilcoxson/Fsw-125/tree/main/week7/Capstone",
+};

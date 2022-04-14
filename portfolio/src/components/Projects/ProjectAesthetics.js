@@ -67,9 +67,10 @@ export const ProjectList = styled.ul`
 export const ProjectListBox = styled.div`
   width: 100%;
   display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: space-around; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 `;
 export const ProjectListContainer = styled.div`
   display: flex;

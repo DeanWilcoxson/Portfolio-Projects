@@ -87,7 +87,7 @@ export const projNine = {
   id: uuidv4(),
   name: "RPG.JS",
   image: `${RoleplayingGame}`,
-  languages: ["Node.JS"],
+  languages: ["Node.JS", "Javascript"],
   concepts: ["Object Oriented Programming", "Constructors", "Readline-Sync"],
   link:
     "https://github.com/DeanWilcoxson/Fsw-105/blob/main/week7/CapstoneRPG.js",

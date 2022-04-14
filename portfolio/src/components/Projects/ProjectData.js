@@ -6,6 +6,7 @@ import MediaPlayerPYPreview from "../../images/MediaPlayerPYPreview.JPG";
 import Fsw130Capstone from "../../images/Fsw130Capstone.JPG";
 import TheBountyHunter from "../../images/TheBountyHunter.JPG";
 import VotingApp from "../../images/VotingApp.JPG";
+import RoleplayingGame from "../../images/RoleplayingGame.JPG";
 import { v4 as uuidv4 } from "uuid";
 export const projOne = {
   id: uuidv4(),
@@ -80,5 +81,14 @@ export const projEight = {
   image: `${VotingApp}`,
   languages: ["React.JS", "Axios", "Express.JS", "Bcrypt", "Mongoose"],
   concepts: ["Middleware", "State Managment", "Authentication"],
-  link: "https://github.com/DeanWilcoxson/Fsw-125/tree/main/week7/Capstone",
+  link: "https://github.com/DeanWilcoxson/Fsw-135/tree/main/week7/Capstone",
+};
+export const projNine = {
+  id: uuidv4(),
+  name: "RPG.JS",
+  image: `${RoleplayingGame}`,
+  languages: ["Node.JS"],
+  concepts: ["Object Oriented Programming", "Constructors", "Readline-Sync"],
+  link:
+    "https://github.com/DeanWilcoxson/Fsw-105/blob/main/week7/CapstoneRPG.js",
 };

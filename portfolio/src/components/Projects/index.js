@@ -10,13 +10,23 @@ import {
   projSix,
   projSeven,
   projEight,
+  projNine,
 } from "./ProjectData";
 const ProjectSection = () => {
-  console.log(projOne);
+  // console.log(projOne);
   return (
     <>
       <ProjectContainer key={projOne.id}>
         <Project data={projOne} />
+      </ProjectContainer>
+      <ProjectContainer key={projSix.id}>
+        <Project data={projSix} />
+      </ProjectContainer>
+      <ProjectContainer key={projSeven.id}>
+        <Project data={projSeven} />
+      </ProjectContainer>
+      <ProjectContainer key={projEight.id}>
+        <Project data={projEight} />
       </ProjectContainer>
       <ProjectContainer key={projTwo.id}>
         <Project data={projTwo} />
@@ -30,14 +40,8 @@ const ProjectSection = () => {
       <ProjectContainer key={projFive.id}>
         <Project data={projFive} />
       </ProjectContainer>
-      <ProjectContainer key={projSix.id}>
-        <Project data={projSix} />
-      </ProjectContainer>
-      <ProjectContainer key={projSeven.id}>
-        <Project data={projSeven} />
-      </ProjectContainer>
-      <ProjectContainer key={projEight.id}>
-        <Project data={projEight} />
+      <ProjectContainer key={projNine.id}>
+        <Project data={projNine} />
       </ProjectContainer>
     </>
   );

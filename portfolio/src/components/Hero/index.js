@@ -48,7 +48,7 @@ const HeroSection = () => {
       <HeroBox>
         <HeroTitle>About</HeroTitle>
         <HeroDesc>
-          I am from a small town called Oakdale, in California. I am {age + " "}{" "}
+          I am from a small town called Oakdale, California. I am {age + " "}{" "}
           years old.
           {" " + years + " "}
           years ago I was diagnosed with Congestive Heart Failure due to my

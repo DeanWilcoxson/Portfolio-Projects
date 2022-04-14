@@ -17,6 +17,11 @@ export const ProjectContainer = styled.div`
 export const ProjectTitle = styled.h1`
   text-shadow: 1.5px 1px 2px grey;
   color: #0d0d0d;
+  @media screen and (max-width: 768px) {
+    text-align: left;
+  }
+  @media screen and (max-width: 370px) {
+  }
 `;
 export const ProjectLink = styled.a`
   margin: 0;
@@ -42,6 +47,14 @@ export const ProjectBox = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  @media screen and (max-width: 370px) {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 `;
 export const ProjectList = styled.ul`
   display: flex;
@@ -49,24 +62,39 @@ export const ProjectList = styled.ul`
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
+  text-align: center;
 `;
 export const ProjectListBox = styled.div`
-  width: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: space-around; */
+`;
+export const ProjectListContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  width: 90%;
+  justify-content: center;
+  align-items: flex-start;
 `;
 export const ProjectListDesc = styled.h4`
   text-shadow: 0.75px 1px 1.5px grey;
 `;
 export const ProjectItem = styled.li`
+  font-size: small;
   font-weight: bold;
   color: grey;
   margin: 0 1rem;
   padding: 1.4rem 0;
   text-shadow: 1.5px 1px 2px lightgrey;
   list-style-type: none;
+  @media screen and (max-width: 768px) {
+    font-size: smaller;
+  }
+  @media screen and (max-width: 370px) {
+    font-size: x-small;
+  }
 `;
 export const ProjectImage = styled.img`
   align-self: center;
